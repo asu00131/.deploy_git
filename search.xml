@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>不知明天写些什么</title>
+      <link href="/blog/2022-08-10_211548/"/>
+      <url>/blog/2022-08-10_211548/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>感觉每天写一写，时间很快就过去了，但感觉甚是奇妙</p><p>![[asu00131_20220810215406.png]]</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown 区块</title>
+      <link href="/blog/2022-08-10_110242/"/>
+      <url>/blog/2022-08-10_110242/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Markdown-区块"><a href="#Markdown-区块" class="headerlink" title="Markdown 区块"></a>Markdown 区块</h1><p>Markdown 区块引用是在段落开头使用 &gt; 符号 ，然后后面紧跟一个<strong>空格</strong>符号：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 这个是Markdown区块引用示例</span><br><span class="line">&gt; 我是阿苏00131 </span><br><span class="line">&gt; 写的不仅是笔记</span><br></pre></td></tr></table></figure><p>注意一行最前面是没有空格的，否则会不生效的<br>显示结果如下：</p><blockquote><p>这个是Markdown区块引用示例<br>我是阿苏00131<br>写的不仅是笔记</p></blockquote><p>另外区块是可以嵌套的，一个 &gt; 符号是最外层，两个 &gt; 符号是第一层嵌套，以此类推：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 最外层 </span><br><span class="line">&gt; &gt; 第一层嵌套 </span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br></pre></td></tr></table></figure><p>显示结果如下：</p><blockquote><p>最外层 </p><blockquote><p>第一层嵌套 </p><blockquote><p>第二层嵌套</p></blockquote></blockquote></blockquote><h3 id="区块中使用列表"><a href="#区块中使用列表" class="headerlink" title="区块中使用列表"></a>区块中使用列表</h3><p>区块中使用列表实例如下：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt; 区块中使用列表 </span><br><span class="line">&gt; 1. 第一项 </span><br><span class="line">&gt; 2. 第二项 </span><br><span class="line">&gt; + 第一项 </span><br><span class="line">&gt; + 第二项 </span><br><span class="line">&gt; + 第三项</span><br></pre></td></tr></table></figure><p>显示结果如下：</p><blockquote><p>区块中使用列表 </p><ol><li>第一项 </li><li>第二项 </li></ol><ul><li>第一项 </li><li>第二项 </li><li>第三项</li></ul></blockquote><h3 id="列表中使用区块"><a href="#列表中使用区块" class="headerlink" title="列表中使用区块"></a>列表中使用区块</h3><p>如果要在列表项目内放进区块，那么就需要在 &gt; 前添加四个空格的缩进。</p><p>列表中使用区块实例如下：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">    &gt; 菜鸟教程 </span><br><span class="line">    &gt; 学的不仅是技术更是梦想 </span><br><span class="line">* 第二项</span><br></pre></td></tr></table></figure><p>显示结果如下：</p><ul><li>第一项<blockquote><p>菜鸟教程<br>学的不仅是技术更是梦想 </p></blockquote></li><li>第二项</li></ul><p>![[asu00131_20220810221804.png]]</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown 列表</title>
+      <link href="/blog/2022-08-09_111211/"/>
+      <url>/blog/2022-08-09_111211/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Markdown-列表"><a href="#Markdown-列表" class="headerlink" title="Markdown 列表"></a>Markdown 列表</h1><p>Markdown 支持有序列表和无序列表。</p><p>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：</p><pre><code>* 第一项 * 第二项 * 第三项 + 第一项 + 第二项 + 第三项 - 第一项 - 第二项 - 第三项</code></pre><p>显示结果如下：</p><ul><li>第一项 </li><li>第二项 </li><li>第三项 </li></ul><ul><li>第一项 </li><li>第二项 </li><li>第三项 </li></ul><ul><li>第一项 </li><li>第二项 </li><li>第三项</li></ul><p>有序列表使用数字并加上 . 号来表示，如：</p><pre><code>1. 第一项 2. 第二项 3. 第三项</code></pre><p>显示结果如下：</p><ol><li>第一项 </li><li>第二项 </li><li>第三项</li></ol><h3 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h3><p>列表嵌套只需在子列表中的选项前面添加两个或四个空格即可：</p><pre><code>1. 第一项：     - 第一项嵌套的第一个元素     - 第一项嵌套的第二个元素 2. 第二项：     - 第二项嵌套的第一个元素     - 第二项嵌套的第二个元素</code></pre><p>显示结果如下：</p><ol><li>第一项： <ul><li>第一项嵌套的第一个元素 </li><li>第一项嵌套的第二个元素 </li></ul></li><li>第二项： <ul><li>第二项嵌套的第一个元素 </li><li>第二项嵌套的第二个元素</li></ul></li></ol><p>![[asu00131_20220810222454.png]]</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown 段落</title>
+      <link href="/blog/2022-08-08_102816/"/>
+      <url>/blog/2022-08-08_102816/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Markdown-段落"><a href="#Markdown-段落" class="headerlink" title="Markdown 段落"></a>Markdown 段落</h1><p>Markdown 段落没有特殊的格式，直接编写文字就好，<strong>段落换行是回车，在段落后面使用一个空行来表示重新开始一个段落。</strong></p><p><img src="asu00131_20220807220919.png" alt=""></p><hr><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>Markdown 可以使用以下几种字体：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">*斜体文本* </span><br><span class="line">_斜体文本_ </span><br><span class="line">**粗体文本** </span><br><span class="line">__粗体文本__ </span><br><span class="line">***粗斜体文本*** </span><br><span class="line">___粗斜体文本___</span><br></pre></td></tr></table></figure><p>显示效果如下所示：</p><p>![[asu00131_20220807221121.png]]</p><hr><h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2><p>下面每种写法都可以建立分隔线：<br>注意：文字回车后使用会成一级标题，需要空行两次<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">***  </span><br><span class="line">*  *  *  * </span><br><span class="line">****  </span><br><span class="line">---</span><br><span class="line">-  -  -  </span><br><span class="line">----------</span><br></pre></td></tr></table></figure></p><p>显示效果看看之间的标题上的段落</p><h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 ~~ 即可，实例如下：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">asu00131</span><br><span class="line">~~GOOGLE.COM~~</span><br></pre></td></tr></table></figure><p>显示效果如下所示：<br>asu00131<br><del>GOOGLE.COM</del></p><hr><h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p>下划线可以通过 HTML 的 <u> 标签来实现：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;u&gt;带下划线文本&lt;/u&gt;</span><br></pre></td></tr></table></figure><p>显示效果如下所示：</p><p><u>带下划线文本</u></p><hr><p>备注：<br>![[asu00131_20220807232203.png]]</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown 标题</title>
+      <link href="/blog/2022-08-07_204305/"/>
+      <url>/blog/2022-08-07_204305/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Markdown-标题"><a href="#Markdown-标题" class="headerlink" title="Markdown 标题"></a>Markdown 标题</h1><p>Markdown 标题有两种格式。</p><h3 id="1、-使用-号标记"><a href="#1、-使用-号标记" class="headerlink" title="1、 使用 # 号标记"></a>1、 使用 # 号标记</h3><p>使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题  </span><br><span class="line">## 二级标题  </span><br><span class="line">### 三级标题  </span><br><span class="line">#### 四级标题  </span><br><span class="line">##### 五级标题  </span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure><p>显示效果如下图：<br><img src="asu00131_20220807215127.png" alt=""></p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>最近用上Obsidian</title>
+      <link href="/blog/2022-08-06_204259/"/>
+      <url>/blog/2022-08-06_204259/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最近用上Obsidian，感觉挺好用的。发现这笔记软件真的很强大，正在不断挖掘中。。。</p><h2 id="我的Obsidian入门之旅正式开始"><a href="#我的Obsidian入门之旅正式开始" class="headerlink" title="我的Obsidian入门之旅正式开始"></a>我的Obsidian入门之旅正式开始</h2><p><img src="asu00131_20220807215739.gif" alt=""></p><p><img src="asu00131_20220808204735.png" alt=""></p><p>![[asu00131_20220807224119.png]]</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这个可以查看自己quicker使用了多少时间</title>
+      <link href="/blog/2022-08-05-095304/"/>
+      <url>/blog/2022-08-05-095304/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这个可以查看自己使用时间"><a href="#这个可以查看自己使用时间" class="headerlink" title="这个可以查看自己使用时间"></a>这个可以查看自己使用时间</h2><p><a href="https://getquicker.net/Member/Home">会员中心 - Quicker (getquicker.net)</a></p><p>![[010_工作台/Hexo-butterfly-demo/source/_posts/2022-08-05-095304/quicker会员时间 image 20220807094725.png]]</p><p>然后用现在的时间 - 注册的时间  →提示显示出来 OK 目的完成</p><p>具体我做了个小动作</p><p>选中自己注册的时间然后运行动作就能想要得到的结果</p><p><img src="运行效果.png" alt=""></p><p>当然动作很简陋，我试试使用下面会员到期时间，发现也是能运行的，  </p><p>相信你能修复这个Bug，奇怪的知识增加了+1</p><p><a href="https://getquicker.net/Sharedaction?code=447f5ebf-f830-452b-3fec-08da779e3ffb">动作：我使用quicker多少天</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>用自己的方式发布热爱的事物</title>
+      <link href="/blog/2022-08-04_114556/"/>
+      <url>/blog/2022-08-04_114556/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="用自己的方式记录热爱的事物"><a href="#用自己的方式记录热爱的事物" class="headerlink" title="用自己的方式记录热爱的事物"></a>用自己的方式记录热爱的事物</h2><p>轻松创建独一无二的精美博客。</p><h2 id="可以自由选择心中完美的设计"><a href="#可以自由选择心中完美的设计" class="headerlink" title="可以自由选择心中完美的设计"></a>可以自由选择心中完美的设计</h2><p>创建符合个人风格的精美博客。我精选了一些简单好用的模板，它们布局灵活并有数种背景图片。您可以从中选择，也可以自己动手设计。</p><h2 id="留住美好记忆"><a href="#留住美好记忆" class="headerlink" title="留住美好记忆"></a>留住美好记忆</h2><p>保存重要时刻。利用这个5G网络时代写进Blog，更可以将成千上万的博文、照片以及更多内容分享地存储在网络中。</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>无论是分享您的专业知识、重要资讯还是心中的想法，阿苏00131都可以伴您一路前行。分享自己热爱的事物。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>是个新开始</title>
+      <link href="/blog/2022-08-03_220223/"/>
+      <url>/blog/2022-08-03_220223/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="这是个幸运的新开始"><a href="#这是个幸运的新开始" class="headerlink" title="这是个幸运的新开始"></a>这是个幸运的新开始</h1><p>原来做网站输出这么难的，</p><p>都不知道大佬们是怎么在网上遨游的输出的</p><p>不过，这是个不错的开始</p><p>迈出问题一小步，解决困难一大步</p><p><img src="OH.gif" alt=""></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hello-world</title>
+      <link href="/blog/2022-08-02_110722/"/>
+      <url>/blog/2022-08-02_110722/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><p>备注：<br>![[asu00131_20220807231253.png]]</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是个测试页面</title>
+      <link href="/blog/2022-08-01_194306/"/>
+      <url>/blog/2022-08-01_194306/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h1><p>如果你看到此页面，说明你已成功运行并部署此网站。</p><p><img src="敲鼓_001.gif" alt=""></p><p><br><br>备注：<br>![[asu00131_20220808223107.png]]</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
